@@ -1,0 +1,192 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+#main_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:100vh;
+    width: 90vw;
+    margin: auto;
+    
+}
+
+#main{
+    height:100vh;
+    width : 100vw;
+    margin : auto;
+    background-color: rgb(248, 64, 64);
+    transition: 2s ease-out;
+}
+
+#nav_wrapper{
+    margin: auto;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 12%;
+}
+
+#nav{
+    /* text-align: center; */
+    font-size: 2rem;
+    /* background-color:blue; */
+    height : 100%;
+    width :98%;
+    margin: auto;
+    /* padding: 0.5%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#nav > p{
+    width : 50%;
+    text-align: center;
+    /* background-color: yellow; */
+    /* background :linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px -5px;
+ 
+    border-radius: 2%;
+    padding-top : 0.2rem;
+    padding-bottom : 0.2rem;
+}
+
+#nav > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 15%;
+    /* background-color: blueviolet; */
+}
+
+#nav > div:nth-child(3){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width : 15%;
+    /* background-color: blueviolet; */
+}
+
+
+#ques_wrap{
+    margin: auto;
+    height: 74%;
+    /* margin-top:20px; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    width : 100vw;
+    /* background-color: blue; */
+}
+
+#ques{
+    margin : 0px auto;
+    background-color: aliceblue;
+    height : fit-content;
+    width : 60%;
+    /* padding : 1%; */
+    text-align: center;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+#ques > p {
+    /* background-color: red; */
+    font-size: 1.3em;
+
+}
+
+#ques > div {
+    /* background-color: blueviolet; */
+    font-size: 1em;
+
+}
+
+hr{
+    margin: auto;
+    width : 20%;
+    background-color: grey;
+    margin: 10px auto;
+}
+#ques > div > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+#ques button {
+    border: none;
+    background-color: pink;
+    height : 1.7rem;
+    width : 100px;
+
+
+}
+
+#ques button:hover {
+    border: none;
+    background-color: grey;
+    height : 1.7rem;
+    width : 100px;
+    color : white;
+
+}
+
+.black1{
+    width: 100vw;
+    height : 0vh;
+    background-color: black;
+    transition:  2s ease-out;
+    top:0px;
+    position: fixed;
+}
+
+.black2{
+    width: 100vw;
+    height : 0vh;
+    background-color: black;
+    transition: 2s ease-out;
+    bottom:0px;
+    position: fixed;
+}
+
+/* clow */
+
+#clown{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* top : 50vh;
+    left : 50vw; */
+    z-index: -1;
+    /* width: 70vw;
+    height : 60vh; */
+    opacity: 0;
+    transition: opacity 15s;
+    /* background-image: url("https://www.masaischool.com/blog/content/images/2022/05/Prateek-Nrupul---Yogesh.png");
+    background-size :150%; */
+    /* margin:auto; */
+}
+
+#clown > img {
+    width : 300px;
+    border-radius: 50%;
+    transition: opacity 10s;
+
+}
+
+.icon{
+    /* width: 0.8rem; */
+    font-size: 1.5rem;
+}
